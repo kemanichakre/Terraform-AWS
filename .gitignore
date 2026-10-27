@@ -1,4 +1,7 @@
+@"
 .env
-.terraform
-terraform.tfstate
-terraform.tfstate.backup
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+"@ | Set-Content .gitignore
